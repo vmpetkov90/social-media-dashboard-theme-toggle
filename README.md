@@ -13,21 +13,18 @@ A responsive social media dashboard with platform‑styled cards, follower stats
 ## 🔗 Live Demo
 
 👉 **View the live version here:**  
-https://your-username.github.io/your-repo-name/
-
-*(Replace with your actual GitHub Pages link.)*
+https://vmpetkov90.github.io/social-media-dashboard-theme-toggle/
 
 ---
 
 ## 📸 Screenshots
 
 ### 🌞 Light Mode
-![Light Mode Screenshot](https://via.placeholder.com/1000x600?text=Light+Mode+Screenshot)
+<img width="100%" alt="Screenshot 2026-05-02 180326" src="https://github.com/user-attachments/assets/8ba0f1c9-ee4a-48a3-b503-12656e52ab53" />
+
 
 ### 🌙 Dark Mode
-![Dark Mode Screenshot](https://via.placeholder.com/1000x600?text=Dark+Mode+Screenshot)
-
-*(Replace the placeholder images with your own screenshots.)*
+<img width="100%" alt="Screenshot 2026-05-02 180136" src="https://github.com/user-attachments/assets/4651a4be-b99a-4b4e-b123-5e4bfeedd1ff" />
 
 ---
 
@@ -42,15 +39,10 @@ https://your-username.github.io/your-repo-name/
 
 ## 🛠️ Technologies Used
 - **HTML5**  
-- **CSS3** (Flexbox, Grid, custom properties, responsive design)  
-- **JavaScript** (theme toggle + localStorage)  
+- **CSS3**
+- **JavaScript**
 - **Google Fonts**  
 - **Font Awesome Icons**
-
----
-
-## 🌗 Dark Mode
-The theme switcher toggles a `.dark-mode` class on the `<html>` element and saves the user’s preference in `localStorage`.
 
 ---
 

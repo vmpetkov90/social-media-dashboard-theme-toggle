@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/64038fda00.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <title>Social Media Dashboard</title>
+</head>
+
+<body>
+
+    <main>
+
+        <!-- =========================================
+             HEADER
+        ========================================== -->
+        <header id="page-header">
+            <div class="container">
+
+                <div id="heading-container">
+                    <h1>Social Media Dashboard</h1>
+                    <p class="subheading">Total Followers: 23,004</p>
+                </div>
+
+                <!-- Dark Mode Toggle -->
+                <div id="mode-switch-container">
+                    <p>Dark Mode</p>
+
+                    <button id="mode-switch" aria-label="Toggle dark mode">
+                        <span></span>
+                    </button>
+                </div>
+
+            </div>
+        </header>
+
+        <!-- =========================================
+             FOLLOWERS SECTION
+        ========================================== -->
+        <section id="followers">
+            <div class="container followers-grid">
+
+                <!-- Facebook -->
+                <div class="social-media facebook">
+                    <header>
+                        <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                        <span>@nasdfeef</span>
+                    </header>
+
+                    <div>
+                        <span class="followers">1987</span>
+                        <span>Followers</span>
+                    </div>
+
+                    <footer class="increase">
+                        <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+                        <span>89 Today</span>
+                    </footer>
+                </div>
+
+                <!-- Instagram -->
+                <div class="social-media instagram">
+                    <header>
+                        <i class="fa-brands fa-square-instagram" aria-hidden="true"></i>
+                        <span>NnsdFeef</span>
+                    </header>
+
+                    <div>
+                        <span class="followers">1044</span>
+                        <span>Followers</span>
+                    </div>
+
+                    <footer class="decrease">
+                        <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+                        <span>122 Today</span>
+                    </footer>
+                </div>
+
+                <!-- Twitter -->
+                <div class="social-media twitter">
+                    <header>
+                        <i class="fa-brands fa-square-x-twitter" aria-hidden="true"></i>
+                        <span>@nasdfeef21</span>
+                    </header>
+
+                    <div>
+                        <span class="followers">11k</span>
+                        <span>Followers</span>
+                    </div>
+
+                    <footer class="increase">
+                        <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+                        <span>345 Today</span>
+                    </footer>
+                </div>
+
+                <!-- YouTube -->
+                <div class="social-media youtube">
+                    <header>
+                        <i class="fa-brands fa-square-youtube" aria-hidden="true"></i>
+                        <span>Nant F.</span>
+                    </header>
+
+                    <div>
+                        <span class="followers">8239</span>
+                        <span>Subscribers</span>
+                    </div>
+
+                    <footer class="decrease">
+                        <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+                        <span>231 Today</span>
+                    </footer>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================================
+             OVERVIEW SECTION
+        ========================================== -->
+        <section id="overview">
+            <div class="container">
+
+                <h2>Overview - Today</h2>
+
+                <div id="stats">
+
+                    <!-- Facebook Page Views -->
+                    <div class="social-media facebook">
+                        <header>
+                            <span>Page Views</span>
+                            <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                        </header>
+
+                        <footer>
+                            <div><span class="stat-number">87</span></div>
+                            <div class="increase">
+                                <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+                                <span>3%</span>
+                            </div>
+                        </footer>
+                    </div>
+
+                    <!-- Facebook Likes -->
+                    <div class="social-media facebook">
+                        <header>
+                            <span>Likes</span>
+                            <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+                        </header>
+
+                        <footer>
+                            <div><span class="stat-number">52</span></div>
+                            <div class="decrease">
+                                <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+                                <span>2%</span>
+                            </div>
+                        </footer>
+                    </div>
+
+                    <!-- Instagram Page Views -->
+                    <div class="social-media instagram">
+                        <header>
+                            <span>Page Views</span>
+                            <i class="fa-brands fa-square-instagram" aria-hidden="true"></i>
+                        </header>
+
+                        <footer>
+                            <div><span class="stat-number">5462</span></div>
+                            <div class="increase">
+                                <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+                                <span>223%</span>
+                            </div>
+                        </footer>
+                    </div>
+
+                    <!-- Instagram Profile Views -->
+                    <div class="social-media instagram">
+                        <header>
+                            <span>Profile Views</span>
+                            <i class="fa-brands fa-square-instagram" aria-hidden="true"></i>
+                        </header>
+
+                        <footer>
+                            <div><span class="stat-number">24k</span></div>
+                            <div class="increase">
+                                <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+                                <span>87%</span>
+                            </div>
+                        </footer>
+                    </div>
+
+                    <!-- Twitter Retweets -->
+                    <div class="social-media twitter">
+                        <header>
+                            <span>Retweets</span>
+                            <i class="fa-brands fa-square-twitter" aria-hidden="true"></i>
+                        </header>
+
+                        <footer>
+                            <div><span class="stat-number">117</span></div>
+                            <div class="increase">
+                                <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+                                <span>21%</span>
+                            </div>
+                        </footer>
+                    </div>
+
+                    <!-- Twitter Likes -->
+                    <div class="social-media twitter">
+                        <header>
+                            <span>Likes</span>
+                            <i class="fa-brands fa-square-twitter" aria-hidden="true"></i>
+                        </header>
+
+                        <footer>
+                            <div><span class="stat-number">408</span></div>
+                            <div class="increase">
+                                <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+                                <span>311%</span>
+                            </div>
+                        </footer>
+                    </div>
+
+                    <!-- YouTube Likes -->
+                    <div class="social-media youtube">
+                        <header>
+                            <span>Likes</span>
+                            <i class="fa-brands fa-square-youtube" aria-hidden="true"></i>
+                        </header>
+
+                        <footer>
+                            <div><span class="stat-number">107</span></div>
+                            <div class="decrease">
+                                <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+                                <span>20%</span>
+                            </div>
+                        </footer>
+                    </div>
+
+                    <!-- YouTube Total Views -->
+                    <div class="social-media youtube">
+                        <header>
+                            <span>Total Views</span>
+                            <i class="fa-brands fa-square-youtube" aria-hidden="true"></i>
+                        </header>
+
+                        <footer>
+                            <div><span class="stat-number">1401</span></div>
+                            <div class="decrease">
+                                <i class="fa-solid fa-caret-up" aria-hidden="true"></i>
+                                <span>12%</span>
+                            </div>
+                        </footer>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
